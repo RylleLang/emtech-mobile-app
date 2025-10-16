@@ -1,0 +1,21 @@
+- [x] Install expo-location package
+- [x] Import Location from expo-location in App.js
+- [x] Request location permissions when location button is pressed
+- [x] Implement handlePressToolbarLocation to get current position and add location message
+- [x] Add location permissions to app.json for Android
+- [x] Test the app to ensure geolocation works (Metro bundler started successfully)
+- [x] Add fullscreenMapId to state
+- [x] Handle location message press to set fullscreenMapId
+- [x] Update deleteMessage to handle fullscreenMapId
+- [x] Add dismissFullscreenMap method
+- [x] Implement renderFullscreenMap method
+- [x] Add renderFullscreenMap to render method
+- [x] Add fullscreenMap style
+- [x] Add Send button to Toolbar component
+- [x] Add sendButton and sendButtonText styles
+- [x] Enable zoom and scroll on fullscreen map
+- [x] Replace TouchableHighlight with View and add close button
+- [x] Add closeButton and closeButtonText styles
+- [x] Add long press to delete messages (text, image, location)
+- [x] Update MessageList to accept onLongPressMessage prop
+- [x] Add onLongPress to TouchableOpacity in MessageList
